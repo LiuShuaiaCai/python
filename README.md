@@ -20,7 +20,8 @@
 		+ isinstance()认为子类是父类的类型
 	[详细](http://www.runoob.com/python3/python3-data-type.html)
 	
-* 
+* 获取对象的地址
+	+ id()
 
 
 
