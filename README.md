@@ -4,7 +4,7 @@
 
 	1、print()添加第二个参数end,如：print('hello',end='')表示不换行
 
-#### python3学习笔记：	
+#### pythonx3数据类型：	
 * 标准数据类型：
 	+ Number(数字)
 	+ String(字符串)
@@ -23,5 +23,34 @@
 * 获取对象的地址
 	+ id()
 
+* 几种遍历技巧：
+	+ 遍历字典：items()
+	info = {'name':'liushuaicai','age':'25'}
+	for key,val in info.items():
+		print(key,val)
 
+	+ 遍历列表、元组、集合
+	list1 = ['hello','python']
+	list2 = ['vary','good']
+	for i,j in enumerate(list1):
+		print(i.j)
+
+	+ 同时遍历两个或者多个序列：zip()
+	for i,j in zip(list1,list2):
+		print('{0}{1}').format(i,j))
+
+	+ 倒序排列
+	for i in reversed(range(1,10,2)):
+		print(i)
+
+	+ 给列表去重：
+		set()函数
+
+#### 迭代器和生成器
+* 迭代器的两个基本方法：
+	+ iter() 创建迭代器对象
+	+ next() 输出迭代器的下一个元素
+
+* 生成器：yield()
+	用于迭代操作，返回数据，类似于return
 
