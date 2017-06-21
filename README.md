@@ -13,5 +13,14 @@
 	+ Sets(集合)---Python3新增
 	+ Dictionary(字典)
 
+* 判断变量的类型：type()|isinstance()
+	
+	区别：
+		+ type()不会认为子类是父类的类型
+		+ isinstance()认为子类是父类的类型
+	[详细](http://www.runoob.com/python3/python3-data-type.html)
+	
+* 
+
 
 
