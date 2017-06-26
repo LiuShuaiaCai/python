@@ -16,6 +16,7 @@
 	* map/reduce
 		+ map(function,iterable...) 通过指定的函数对序列做映射
 			- 简单的例子：
+
 			```python
 			>>> def f(x):
 			...     return x*x
@@ -25,6 +26,7 @@
 			>>> list(r)
 			[0, 1, 4, 9, 16]
 			```
+
 		+ reduce(function,iterable[,initializer])对参数序列中的元素进行累积
 			- 注：function必须是两个参数
 			- 看下面的例子：
