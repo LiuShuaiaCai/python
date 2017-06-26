@@ -25,28 +25,28 @@
 
 * 几种遍历技巧：
 	+ 遍历字典：items()
-
+	```python
 	info = {'name':'liushuaicai','age':'25'}
 	for key,val in info.items():
 		print(key,val)
-
+	```
 	+ 遍历列表、元组、集合
-
+	```python
 	list1 = ['hello','python']
 	list2 = ['vary','good']
 	for i,j in enumerate(list1):
 		print(i.j)
-
+	```
 	+ 同时遍历两个或者多个序列：zip()
-
+	```python
 	for i,j in zip(list1,list2):
 		print('{0}{1}').format(i,j))
-
+	```
 	+ 倒序排列
-
+	```python
 	for i in reversed(range(1,10,2)):
 		print(i)
-
+	```
 	+ 给列表去重：
 
 		set()函数
