@@ -25,25 +25,30 @@
 
 * 几种遍历技巧：
 	+ 遍历字典：items()
+
 	info = {'name':'liushuaicai','age':'25'}
 	for key,val in info.items():
 		print(key,val)
 
 	+ 遍历列表、元组、集合
+
 	list1 = ['hello','python']
 	list2 = ['vary','good']
 	for i,j in enumerate(list1):
 		print(i.j)
 
 	+ 同时遍历两个或者多个序列：zip()
+
 	for i,j in zip(list1,list2):
 		print('{0}{1}').format(i,j))
 
 	+ 倒序排列
+
 	for i in reversed(range(1,10,2)):
 		print(i)
 
 	+ 给列表去重：
+
 		set()函数
 
 #### 迭代器和生成器
@@ -52,5 +57,13 @@
 	+ next() 输出迭代器的下一个元素
 
 * 生成器：yield()
-	用于迭代操作，返回数据，类似于return
+	+ 用于迭代操作，返回数据，类似于return，不同的是yield可以在循环中连续返回数据。
+	+ 简单的迭代器：
+		- 用元组代替列表，如：
+		```python
+		>>> g=(i for i in range(10))
+		>>> g
+		<generator object <genexpr> at 0x7f9fd7492d58>	
+		```
+
 
