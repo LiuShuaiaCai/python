@@ -24,8 +24,7 @@
 
 * 2、手动安装
 
-	+ 下载：git clone 
-	[git://github.com/yyuu/pyenv.git .pyenv](git://github.com/yyuu/pyenv.git .pyenv)
+	+ 下载：git clone git://github.com/yyuu/pyenv.git .pyenv
 	+ 添加环境变量
 		- PYENV_ROOT指向pyenv检出的根目录
 		```shell
